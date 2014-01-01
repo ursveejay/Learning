@@ -1,0 +1,16 @@
+package com.vj.model;
+
+public enum AssetState {
+	
+		NEW("New"), ACTIVE("Active"), DELETED("Deleted");
+
+		private AssetState(final String assetState) {
+			this.assetState = assetState;
+		}
+
+		private String assetState;
+
+		public String getAssetState() {
+			return assetState;
+		}
+}
